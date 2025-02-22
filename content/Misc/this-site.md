@@ -15,5 +15,5 @@ The main color is [Wada Sanzo](https://sanzo-wada.dmbk.io)  [Andover Green](http
 My main design inspirations come from:
 - [Neil Panchal](https://neil.computer)'s website
 - [Steph Ango](https://stephango.com)'s website
-- The TV Series [Severance](https://en.wikipedia.org/wiki/Severance_(TV_series))
+- The TV Series [Severance](https://en.wikipedia.org/wiki/Severance_(TV_series)), which features very nice [typography](https://severance.wiki/typography#:~:text=Manifold%20Extended%20CF,-Manifold%20Extended%20is&text=Manifold%20Extended%20sees%20extensive%20use,company's%20headquarters%20in%20Kier%2C%20PE.)
 - The [Business Card Scene](https://www.youtube.com/watch?v=aZVkW9p-cCU) from American Psycho
