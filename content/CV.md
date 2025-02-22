@@ -18,7 +18,6 @@ I have experience in Python, Unix/Bash, HPC, and various workflow management sof
 > - **Crowley J.**, Hilpert C., Monticelli L. 2024. [_Predicting lipid sorting in curved membranes._ Methods in Enzymology, Academic Press.](https://doi.org/10.1016/bs.mie.2024.03.022)
 > - Nieto V., **Crowley J.**, Santos D., Monticelli L. 2023. [_Birth of an organelle: molecular mechanism of lipid droplet biogenesis._ bioRxiv 2023.07.28.550987](https://doi.org/10.1101/2023.07.28.550987)
 > 
-> [[tags/molecular-dynamics]] [[tags/non-equilibrium-simulations]] [[tags/membrane-biogenesis]]
 ## Master of Philosophy in Biomedical Engineering
 > _2020 - 2021_
 > 
@@ -34,8 +33,6 @@ I have experience in Python, Unix/Bash, HPC, and various workflow management sof
 > 
 > **Awards**:
 > - 2x Dean's Merit List Award (2020 & 2021)
->
-> [[tags/atomistic]] 
 
 ## Bachelor of Medical Sciences
 > _2015 - 2019_

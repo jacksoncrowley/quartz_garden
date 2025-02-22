@@ -11,7 +11,6 @@ I adapted a [module](https://github.com/camargomau/notkesto-site/blob/v4/quartz/
  I neither know nor intend to learn TypeScript, which Quartz is written in, so all other cosmetic changes are pure CSS.
 ### Design
 The main color is [Wada Sanzo](https://sanzo-wada.dmbk.io)  [Andover Green](https://sanzo-wada.dmbk.io/swatch/andover-green). The header font is [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk), body font is [Figtree](https://fonts.google.com/specimen/Figtree), and the code block fonts are [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
-
 ### Inspiration
 My main design inspirations come from:
 - [Neil Panchal](https://neil.computer)'s website
