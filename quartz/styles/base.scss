@@ -407,16 +407,17 @@ pre {
   padding: 0 0.5rem;
   //border-radius: 5px;
   overflow-x: auto;
+  margin: 1em 0;
   border: 1px solid var(--lightgray);
   position: relative;
+  background: var(--lightgray);
 
   &:has(> code.mermaid) {
     border: none;
   }
 
   & > code {
-    background: none;
-    padding: 0;
+    padding: 1em;
     font-size: 0.85rem;
     counter-reset: line;
     counter-increment: line 0;
