@@ -1,3 +1,9 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+body:not([data-slug="index"]) {
+  // Rules inside here are applied to all pages, except the root index page. 
+  .recent-notes {
+    display: none;
+  }
+}
