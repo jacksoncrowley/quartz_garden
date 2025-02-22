@@ -8,9 +8,10 @@ header {
 #links-header {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 1em;
+  gap: 1em;
+  //column-gap: 1em;
   font-size: 1.2em;
-  justify-content: space-between;
+  //justify-content: space-between;
   margin: 0 0.2em;
 
   span {
