@@ -2,9 +2,9 @@
 title: Going from a SMILES string to QM dihedral scan
 date: 2024-08-01
 description: Starting with a simple SMILES chemical string, we perform QM geometry optimisation and a dihedral scan, in order to parameterise missing dihedrals for molecular dynamics simulations.
-tags: []
+tags:
+  - psi4
 ---
-[[tags/qm]] [[tags/psi4]]
 In this post, we'll take a SMILES string, convert that into a molecule file with optimised geometry, and finally perform a simple dihedral scan at the quantum chemical level. 
 
 We'll start with a few of my basic notes on quantum chemistry, but feel free to skip that and jump right into the how-to by clicking [here](#getting-started).
@@ -40,7 +40,7 @@ We call the combination of method and basis set the **level of theory**, which d
 
 ## Getting Started
 
-## Step 1: Converting a SMILES string to a 3d structure
+### Step 1: Converting a SMILES string to a 3d structure
 The dihedral I want to parameterise comes from cholesteryl oleate, an awfully large molecule (by QM standards, maybe). I decided instead to take a small portion which has the dihedral I want, a [cyclohexyl acetate](https://pubchem.ncbi.nlm.nih.gov/compound/Cyclohexyl-acetate):
 
 I can take the SMILES string and generate a 3d structure using ```openbabel```[^2]:
@@ -81,14 +81,14 @@ H          4.67278        1.79802        2.59618
 
 It's an extremely simple format: the first line shows us we have 24 atoms, the second line is blank, but you can write a descriptor "i.e. Cyclohexyl acetate"[^4], and the rest of the lines are organised to show the atom type and it's x, y, z cartesian coordinates. 
 
-## Step 2: Simple Geometry Optimisation
+### Step 2: Simple Geometry Optimisation
 The 3d structure we have is geometrically perfect. Yet molecules are not. We'll need to perform some basic energy minimisaion to return something more realistic to save us ttime when we start running simulations at the quantum level. 
 
 We can do this by using the ```obminimize``` function of ```openbabel```:
 
 ```obminimize CHA.xyz > CHA.2.xyz```
 
-## Step 3: Quantum Geometry Optimisation
+### Step 3: Quantum Geometry Optimisation
 We really should optimise our starting geometry as much as possible, and so we can use our QM engine to optimise the geometry further in accordance with the level of theory we've chosen. Since I want to generate atomistic parameters for the CHARMM36 MD forcefield, and previous similar parameterisation efforts have used the MP2/CC-PVDZ level of theory, I think it's where I'll start.
 
 We're going to be using the program [psi4](https://psicode.org) to run all of our QM calculations. I found it pretty easy to use considering it was my first time. Other common alternatives are [ORCA](https://www.faccts.de/orca/) and [Gaussian](https://gaussian.com), the latter of which is paid.
@@ -145,7 +145,7 @@ molecule.save_xyz_file("CHA.3.xyz",1)
 
 Running on 4 cores with ```psi4 psi4_optimise.dat -n 4```, it finishes in about 3 minutes.
 
-## Step 4: Dihedral Scan
+### Step 4: Dihedral Scan
 When doing a dihedral scan, what we're doing is fixing this dihedral at a given value, optimising the geometry to calculate the potential energy on the system, rotating the dihedral by a small amount, and repeating. We then return the potential energy vs. dihedral angle at the end, to plot the potential energy vs angle of the dihedral.
 
 I know from looking at the structure that the dihedral I'm after is D(2,4,5,10), where the numbers are the atom indices in our input structure. When I look in the output file, ```psi4_optimise.out```, I can look for the value of this dihedral angle in the final optimisation step, and I see:

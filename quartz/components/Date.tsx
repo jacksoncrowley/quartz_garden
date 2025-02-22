@@ -18,14 +18,20 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
   return data.dates?.[cfg.defaultDateType]
 }
 
+//export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {
+//  return d.toLocaleDateString(locale, {
+//    year: "numeric",
+//    month: "2-digit",
+    //day: "2-digit",
+//  })
+//}
 export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {
-  return d.toLocaleDateString(locale, {
-    year: "numeric",
-    month: "short",
-    day: "2-digit",
-  })
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  return `${year} ${month}`;
 }
 
+
 export function Date({ date, locale }: Props) {
-  return <time datetime={date.toISOString()}>{formatDate(date, locale)}</time>
+  return <time datetime={date.toISOString()}><code>{formatDate(date, locale)}</code></time>
 }
