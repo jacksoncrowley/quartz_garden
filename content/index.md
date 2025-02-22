@@ -3,7 +3,7 @@ title: About
 ---
 I'm an Australian PhD Student in Computational Biophysics, working in France. I use Coarse Grained [[tags/molecular-dynamics|Molecular Dynamics]] simulations to study Lipid Droplets and Membrane Biogenesis.
 
-I'm a big fan of minimal software, tending to use plain vim, bash, C, and markdown; all of which with a middling proficiency. 
+I'm a big fan of minimal software, tending to use plain vim, bash, Python, a little C, and markdown; all of which with a middling proficiency. 
 
 Outside of Science, I like to run, read, and write.
 
