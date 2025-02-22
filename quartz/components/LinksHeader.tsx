@@ -11,13 +11,13 @@ export default (() => {
       <div>
         <div id="links-header">
           <span>
-            <a href="Blog/">Blog</a>
+            <a href="/Blog">Blog</a>
           </span>
           <span>
-            <a href="/Protocols/">Protocols</a>
+            <a href="/Protocols">Protocols</a>
           </span>
           <span>
-            <a href="/CV/">CV</a>
+            <a href="/CV">CV</a>
           </span>
         </div>
         <hr />
