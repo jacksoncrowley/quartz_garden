@@ -1,0 +1,25 @@
+---
+title: Against Credentialism
+date: 2024-07-30
+---
+One of the most depressing realizations I had pretty much as soon as I started my PhD was that having a PhD is actually not at all impressive. In the years that have followed, I’ve met dozens of people holding that fabled title, _doctor_, and I’ve had to realize that there are a frightening number of unserious and uninspiring people among that cohort.
+
+I’m not alone in thinking this. World reknowned theoretical physicist and mathematician Freeman Dyson once said:
+
+>“_Oh, yes. I’m very proud of not having a Ph.D. I think the Ph.D. system is an abomination. It was invented as a system for educating German professors in the 19th century, and it works well under those conditions… But it has become now a kind of union card that you have to have in order to have a job, whether it’s being a professor or other things, and it’s quite inappropriate for that. It forces people to waste years and years of their lives sort of pretending to do research for which they’re not at all well-suited. In the end, they have this piece of paper which says they’re qualified, but it really doesn’t mean anything._”
+
+I know that, for instance, there are many who would consider a PhD to be the “budget” version of the doctor title, yet a friend of mine who started his MD a little before I started my PhD has told me he’s noticed the same thing amongst medical doctors. You can know a lot about science, biology, or the human body and how to cure it, and still be a bit of an idiot. You can also be intelligent enough but completely uninspiring and passionless.
+
+Two things give me the confidence to say this in a “public” place: (1) that I, for one, often consider myself part of that uninspiring group, undeserving of a title that once held prestige, and (2) that while I’ve met many uninspiring people, I’ve also met some of the most dazzlingly brilliant at the same time. I had lunch with a professor once, and I watched the gears in his mind turned to adjust his method of explanation of a rather complex topic such that all of us listening could follow and yet remained interested, which requires not only deep understanding of the topic at hand but a high level of emotional intelligence. 
+
+But why do we do it to ourselves, then? Chasing a stereotypically “impressive” career has always manifested from certain expectations from our communities, or otherwise our own insecurities (which are some of my biggest motivators, I must confess). Yet in the world of Instagram and LinkedIn, or otherwise general public-facing connectedness, we’ve started to market ourselves as products. We want to be someone who does impressive things no longer for the sake of the experience, the learning and growth, but because they will become lines on our CVs, or snippets to fit into the one-sentence description someone will give of us while speaking in our absence. We fill out our LinkedIn descriptions and skills, we commit a few lines of code on GitHub every day to make our profile **_look_** like we do meaningful, consistent work. And we want so desperately to be a writer or a marathon runner, or someone with a Doctor title in front of our name[^1]. 
+
+And so we flock to degrees and jobs that sound impressive, acting as though the thing itself supersedes all levels of quality and passion. I mean, who cares if he’s miserable and works 70 hours a week on something he hates, right? He’s a _doctor/lawyer/quant_, or even worse, _she makes xx0k a year_.
+
+But by focussing on the title itself, the sound byte, the emphasis is placed on the noun and taken away from the adjective. And so while it’s easy to technically become a scientist, being a a “good” scientist, well, that’s a whole different beast. Replace “scientist” with whatever it may be. It is the _doing_ that is impressive, not merely _being_. Having a baby itself is not impressive or even technically difficult (and there are many videos on the internet to demonstrate this), but _being a good parent_ is. Any dork can write for 30 minutes to an hour a day and claim the title of writer, but whether or not they are a good one is far out of their hands, and demands taking the act of writing to a level far deeper than the simple desire of wanting to be a writer. 
+
+And I must admit that a non-insignificant part of me was attracted to a PhD because of how impressive I thought it would sound. It didn’t take very long for me to see it for what it was. Fortunately, I’ve realised I really like being a scientist, and so now I’m happy to resign myself to the fact that the degree itself is no more than, as Dyson said, a union card in a world of credentialism, to open a few extra doors. 
+
+There’s a simple antidote for these symptoms I’ve outlined, the status-chasing, the being-over-doing. Do the things you like, and do them quietly. At least, be quiet about them until you’ve done them to a degree that you’re proud of.
+
+[^1]: See: Myself
